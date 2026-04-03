@@ -1,2 +1,1 @@
-# bilalsaifi.github.io
-100+ gemini pro prompt...Easy to use...
+
