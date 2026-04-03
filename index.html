@@ -1,0 +1,64 @@
+<!DOCTYPE html><html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>PromptHub</title>
+  <style>
+    body {
+      margin: 0;
+      font-family: Arial, sans-serif;
+      background: linear-gradient(135deg, #0f2027, #203a43, #2c5364);
+      color: white;
+    }
+    header {
+      text-align: center;
+      padding: 50px 20px;
+    }
+    h1 {
+      font-size: 2.5rem;
+    }
+    .search-box {
+      margin: 20px auto;
+      max-width: 400px;
+    }
+    input {
+      width: 100%;
+      padding: 10px;
+      border-radius: 8px;
+      border: none;
+    }
+    .categories {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+      gap: 15px;
+      padding: 20px;
+    }
+    .card {
+      background: rgba(255,255,255,0.1);
+      padding: 20px;
+      border-radius: 15px;
+      text-align: center;
+      transition: 0.3s;
+    }
+    .card:hover {
+      background: rgba(255,255,255,0.2);
+      transform: scale(1.05);
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>100+ Powerful Gemini Prompts</h1>
+    <p>Find the best AI prompts for your needs</p>
+    <div class="search-box">
+      <input type="text" placeholder="Search prompts...">
+    </div>
+  </header>  <section class="categories">
+    <div class="card">Business</div>
+    <div class="card">Study</div>
+    <div class="card">Content Creation</div>
+    <div class="card">Coding</div>
+    <div class="card">Social Media</div>
+  </section>
+</body>
+</html>
